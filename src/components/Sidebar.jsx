@@ -4,14 +4,16 @@ import { useLang } from '../i18n/LangContext.jsx'
 
 const navItems = {
   vi: [
-    { to: '/',     icon: '👤', label: 'Tự giới thiệu' },
-    { to: '/hr',   icon: '👔', label: 'Vòng HR'        },
-    { to: '/tech', icon: '💻', label: 'Kỹ thuật'       },
+    { to: '/',        icon: '👤', label: 'Tự giới thiệu' },
+    { to: '/hr',      icon: '👔', label: 'Vòng HR'        },
+    { to: '/tech',    icon: '💻', label: 'Kỹ thuật'       },
+    { to: '/roadmap', icon: '🗺️', label: 'Lộ trình Backend' },
   ],
   en: [
-    { to: '/',     icon: '👤', label: 'Self-Intro'  },
-    { to: '/hr',   icon: '👔', label: 'HR Round'    },
-    { to: '/tech', icon: '💻', label: 'Technical'   },
+    { to: '/',        icon: '👤', label: 'Self-Intro'  },
+    { to: '/hr',      icon: '👔', label: 'HR Round'    },
+    { to: '/tech',    icon: '💻', label: 'Technical'   },
+    { to: '/roadmap', icon: '🗺️', label: 'Backend Roadmap' },
   ],
 }
 

@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar.jsx'
 import IntroPage from './pages/IntroPage.jsx'
 import HRPage from './pages/HRPage.jsx'
 import TechPage from './pages/TechPage.jsx'
+import RoadmapPage from './pages/RoadmapPage.jsx'
 
 export default function App() {
   return (
@@ -12,9 +13,10 @@ export default function App() {
         <div className="app-shell">
           <Sidebar />
           <Routes>
-            <Route path="/"     element={<IntroPage />} />
-            <Route path="/hr"   element={<HRPage />} />
-            <Route path="/tech" element={<TechPage />} />
+            <Route path="/"        element={<IntroPage />} />
+            <Route path="/hr"      element={<HRPage />} />
+            <Route path="/tech"    element={<TechPage />} />
+            <Route path="/roadmap" element={<RoadmapPage />} />
           </Routes>
         </div>
       </BrowserRouter>
